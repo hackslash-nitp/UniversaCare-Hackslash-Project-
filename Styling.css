@@ -1,0 +1,597 @@
+/* section-1 by Richa */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+}
+
+.section1 {
+    width: 100%;
+    height: 709px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.bot {
+    width: 100%;
+    height: 60px;
+    background: linear-gradient(rgba(255, 192, 61, 1), rgba(255, 193, 7, 1));
+    opacity: 1;
+    position: absolute;
+    top: 649px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.btext {
+    width: 418px;
+    height: 37px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 6px;
+    opacity: 1;
+    position: absolute;
+    top: 12px;
+    left: 511px;
+    overflow: hidden;
+
+}
+
+.c3 {
+    width: 375px;
+    color: rgba(43, 45, 66, 1);
+    position: absolute;
+    top: 8px;
+    left: 43px;
+    font-family: Montserrat;
+    font-weight: SemiBold;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+}
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+    padding: 35px 7px;
+    position: relative;
+}
+
+ul li:not(:last-child)::after {
+    content: "";
+    border: 1px solid #e2e2e2;
+    line-height: 5px;
+    border-width: 1px 1px 0 0;
+    position: absolute;
+    right: -3px;
+    top: 40px;
+    bottom: 40px;
+    height: 15%;
+}
+
+
+.third {
+    width: 100%;
+    height: 500px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    position: absolute;
+    top: 149px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.tcontent {
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(rgba(255, 240, 224, 1), rgba(255, 255, 255, 1));
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.picture {
+    width: 788px;
+    height: 499px;
+    background: url(/Hackslash/images/Opening\ image.png );     
+    opacity: 1;
+    position: absolute;
+    top:0px;
+    left: 700px;
+}
+
+.c1 {
+    width: 608px;
+    color: rgba(43, 45, 66, 1);
+    position: absolute;
+    top: 96px;
+    left: 71px;
+    font-family: Montserrat;
+    font-weight: Bold;
+    font-size: 48px;
+    opacity: 1;
+    text-align: left;
+}
+
+.c2 {
+    width: 376px;
+    color: rgba(43, 45, 66, 1);
+    position: absolute;
+    top: 229px;
+    left: 71px;
+    font-family: Montserrat;
+    font-weight: Medium;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+}
+
+.but {
+    width: 342px;
+    height: 66px;
+    opacity: 1;
+    position: absolute;
+    top: 309px;
+    left: 71px;
+    overflow: hidden;
+}
+
+.bcon {
+    width: 342px;
+    height: 66px;
+    background: rgba(0, 71, 171, 1);
+    padding: 23px 31px;
+    margin: 10px;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    overflow: hidden;
+}
+
+.bcontent {
+    width: 280px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 18px;
+    left: 38px;
+    font-family: Montserrat;
+    font-weight: Bold;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+}
+
+.first {
+    width: 100%;
+    height: 63px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0px 4px 4px rgba(0.9215686321258545, 0.9215686321258545, 0.9215686321258545, 1);
+    overflow: hidden;
+}
+
+.tit {
+    width: 390px;
+    color: rgba(0, 71, 171, 1);
+    position: absolute;
+    top: 20px;
+    left: 547px;
+    font-family: Montserrat;
+    font-weight: SemiBold;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+}
+
+
+.logo1 {
+    width: 18px;
+    height: 20px;    
+    opacity: 1;
+    position: absolute;
+    top: 23px;
+    left: 515px;
+}
+.fa-exclamation-circle{
+    margin-right:3% ;
+}
+
+
+.logo4 {
+    width: 21px;
+    height: 30px;
+
+   
+    opacity: 1;
+    position: absolute;
+    top: 3px;
+    left: 7px;
+}
+.fa-map-marker-alt{
+    margin-right: 3%;
+}
+
+.phone {
+    width: 111px;
+    color: rgba(0, 71, 171, 1);
+    position: absolute;
+    top: 2px;
+    bottom: 5px;
+    left:4em;
+    font-family: Montserrat;
+    font-weight: SemiBold;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+}
+
+
+.logo3 {
+    width: 19px;
+    height: 19px;
+    opacity: 1;
+    position: absolute;
+    top: 5px;
+    left: 55px;
+}
+.fa-phone-alt{
+    margin-right: 0.5em;
+}
+
+.contsec {
+    width: 200px;
+    height: 24px;
+
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 9px;
+    opacity: 1;
+    position: absolute;
+    top: 90px;
+    left: 1100px;
+    overflow: hidden;
+}
+
+
+.logo2 {
+    width: 190px;
+    height: 30px;
+    background: url(/Hackslash/images/UC-Logo_Vector-01\ 3.png); 
+    opacity: 1;
+    position: absolute;
+    top: 90px;
+    left: 80px;
+}
+
+/*  Section-2 by Tejas */
+
+body{
+   
+    font: Montserrat;
+}
+
+
+#sec2 {
+     
+    border: 1px solid black;
+    box-sizing: border-box;
+    height:932px;
+    width:1440px;
+    /* padding-top:5% */
+     
+}
+
+.line {
+    background-image: linear-gradient(to left, #FFC03D 100%, #FF8B08 100%);
+    width: 161px;
+    height: 5.5px;
+}
+
+.line1 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    color: #2B2D42;
+}
+
+.ca {
+    width: 227px;
+    height: 345px;
+    margin: 0px 0px;
+    display: inline-block;
+}
+
+.div1 {
+    width: 30%;
+    display: inline-block;
+    position: relative;
+    top: 150px;
+    left:216px; 
+} 
+
+.ci {
+    display: inline-block;
+    position: relative;
+    left: 200px; 
+    bottom:150px;
+}
+
+.aa {
+    background-color: white;
+    box-shadow: 3px 4px 6px 0.5px #DDDDDD;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    left: 100px;
+    bottom: 5px;
+    font-weight: 700;
+    border-radius: 50%;
+    font-family: 'Rubik', sans-serif;
+    color: #0047AB;
+    padding: 5px;
+    border: none;
+    text-decoration: none;
+}
+
+p {
+    font: Montserrat;
+    font-size: 15px;
+}
+
+.na {
+    font: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.image {
+    width: 151.08px;
+    height: 120px;
+}
+
+.contact {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    background-color: #0047AB;
+    color: white;
+    border: none;
+    padding: 9%;
+}
+
+.uni {
+    color: #2B2D42;
+    letter-spacing: -0.007em;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    /* or 161% */
+    letter-spacing: -0.007em;
+}
+
+h3 {
+    font: Montserrat;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+}
+
+.d1 {
+    position: relative;
+    left:432px; 
+}
+
+
+/* Caregiver setion-3 by Pragati */
+#caregiver{
+    background-color: #F3F5F9;
+    padding: 3% 7% 3% 7%;
+    font-family:'Montserrat' ;
+    text-align: center;
+}
+.caregiver-title{
+    font-weight: bolder;
+}
+.caregiver-main-title{
+    font-size: 2.2em;
+}
+.circle{
+    position: relative;
+    height: 55px;
+    width: 55px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    z-index: 1;
+}
+.frame{
+    position: relative;
+    top: 0.5em;
+    
+}
+.lines{
+    position: relative;
+    top: 2em;
+    
+}
+@media (max-width: 770px){
+    .lines{
+        display: none;
+    }
+}
+      
+
+
+/* Review Section-4 by Pragati */
+#review{
+    background-image: linear-gradient(to bottom right,#FFF1E1,#FFFBF7,#FFFFFF);
+    padding: 3% 7% 3% 7% ;
+}
+.fa-star{
+    padding-left: 1%;
+    padding-right: 1%;
+
+}
+.card-review{
+   box-shadow: 0.2em 0.2em 0.2em rgb(233, 233, 233);
+}
+.card-text-review{
+    font-size: 0.7em;
+}
+
+
+/* section-5 by Pragati */
+
+#chap{
+    padding: 3% 7% 3% 7%;
+    font-family: 'Montserrat';
+}
+.chap-line{
+   margin-top: 4%;
+    font-size: 2.2em;
+}
+.chap-para{
+    
+    color: #2B2D42;
+    font-size: 1.3em;
+}
+@media (max-width: 770px) {
+    .chap-image{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+}
+
+/* section 6 by Richa*/
+.section6{
+    width: fit-content;
+
+}
+
+/* Section 7 by Tejas */
+
+#sec7{
+    background-color: #395FA9;
+    height:286px;
+    width:1440px; 
+}
+.sec7l1{
+      
+ 
+
+ 
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 37px;
+
+color: #FFFFFF;
+
+ 
+}
+.sec7div1{
+    
+    width: 524px;
+height: 74px;
+ position:relative;
+left: 164px;
+top: 59px;
+   
+}
+.bas{
+    position:relative;
+    
+    left:164px;
+     
+}
+
+/* footer starts by Pragati */
+
+#footer{
+    padding: 3% 7% 3% 7%;
+    font-family: 'Montserrat';
+    font-weight: normal;
+}
+.footer_headings{
+    color: #FF8400;
+    font-weight: bolder;
+}
+.footer_col1{
+    line-height: 3.7ex; 
+}
+.footer_col23{
+    line-height: 3.7ex;
+}
+.description{
+    font-weight:normal;
+}
+.email-input{
+    margin-top: 1%;
+}
+.btn-submit{
+    border-radius: 0%;
+    margin-top: 5%;
+}
+.footer-img{
+    margin-top: 5%;
+    height: 4em;
+    width: 4em;
+    margin-right: 3%;
+}
+.footer_col4{
+    margin-top: 0em;
+}
+.social-icon{
+    margin: 5% 2% 0% 2%;
+    color:#0047AB;
+}
+#Horizontal-line {
+	border-top: 1px dotted #8c8b8b;
+    padding: 0%;
+   
+   
+}
+.footer-heading-line{
+    width: 2em;
+    border-style:solid ;
+    border: 2px solid #FF8400;
+}
+
+.border-circle{
+    height: 9px;
+    width: 9px;
+    background-image: linear-gradient(to bottom right,#FFC03D, #FF8B08);;
+    border-radius: 50%;
+    display: inline-block;
+}
+@media (max-width: 770px){
+    .logo{
+        display: none;
+    }
+    
+}
+      
