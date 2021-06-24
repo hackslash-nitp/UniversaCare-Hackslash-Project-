@@ -105,7 +105,7 @@ ul li:not(:last-child)::after {
 .picture {
     width: 788px;
     height: 499px;
-    background: url(/Hackslash/images/Opening\ image.png );     
+    background: url(images/Opening\ image.png );     
     opacity: 1;
     position: absolute;
     top:0px;
@@ -277,7 +277,7 @@ ul li:not(:last-child)::after {
 .logo2 {
     width: 190px;
     height: 30px;
-    background: url(/Hackslash/images/UC-Logo_Vector-01\ 3.png); 
+    background: url(images/UC-Logo_Vector-01\ 3.png); 
     opacity: 1;
     position: absolute;
     top: 90px;
@@ -500,33 +500,24 @@ h3 {
     width:1440px; 
 }
 .sec7l1{
-      
- 
-
- 
 font-style: normal;
 font-weight: bold;
 font-size: 30px;
 line-height: 37px;
-
 color: #FFFFFF;
+}
 
- 
-}
 .sec7div1{
-    
-    width: 524px;
+width: 524px;
 height: 74px;
- position:relative;
+position:relative;
 left: 164px;
-top: 59px;
-   
+top: 59px;  
 }
+
 .bas{
     position:relative;
-    
-    left:164px;
-     
+    left:164px; 
 }
 
 /* footer starts by Pragati */
